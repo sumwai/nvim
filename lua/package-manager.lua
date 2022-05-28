@@ -27,4 +27,9 @@ require('packer').startup(function ()
   -- comment line or section
   use 'terrortylor/nvim-comment'
 
+  -- todo comment high light
+  use{
+		'folke/todo-comments.nvim',
+		requires = 'nvim-lua/plenary.nvim',
+	}
 end)
