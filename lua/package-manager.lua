@@ -12,4 +12,9 @@ require('packer').startup(function ()
   -- nerd tree
   use 'preservim/nerdtree'
 
+  -- telescope
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = 'nvim-lua/plenary.nvim',
+  }
 end)
