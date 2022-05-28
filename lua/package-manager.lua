@@ -8,4 +8,8 @@ require('packer').startup(function ()
 
   -- status line
   use 'windwp/windline.nvim'
+
+  -- nerd tree
+  use 'preservim/nerdtree'
+
 end)
