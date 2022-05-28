@@ -9,3 +9,6 @@ require('keymaps')
 
 -- settings
 require('settings')
+
+-- code
+require('code')

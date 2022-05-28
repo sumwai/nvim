@@ -22,6 +22,9 @@ require('packer').startup(function ()
   use 'akinsho/toggleterm.nvim'
 
   -- show git message 
-	use'f-person/git-blame.nvim'
+	use 'f-person/git-blame.nvim'
+
+  -- comment line or section
+  use 'terrortylor/nvim-comment'
 
 end)
