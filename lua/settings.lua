@@ -20,7 +20,7 @@ local variables = {
   -- set glow border to rounded
   glow_border = 'rounded',
   -- do not load python provider
-  loaded_python3_provider = 0,
+  -- loaded_python3_provider = 0,
   -- do not load node provider
   loaded_node_provider = 0,
   -- do not load ruby provider
@@ -28,6 +28,10 @@ local variables = {
   -- do not load perl provider
   loaded_perl_provider = 0,
 
+  -- UltiSnip keybind
+  UltiSnipsExpandTrigger="<tab>" ,
+  UltiSnipsJumpForwardTrigger="<tab>",
+  UltiSnipsJumpBackwardTrigger="<s-tab>",
 }
 
 -- vim options

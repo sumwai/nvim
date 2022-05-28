@@ -42,4 +42,7 @@ require('packer').startup(function ()
 		run = ':TSUpdate',
 	}
 
+  use 'SirVer/ultisnips'
+  use 'honza/vim-snippets'
+
 end)
