@@ -33,6 +33,13 @@ require('packer').startup(function ()
 		requires = 'nvim-lua/plenary.nvim',
 	}
 
-  -- 
+  -- glow to preview markdown 
   use 'ellisonleao/glow.nvim'
+
+  -- nvim tree sitter
+  use{
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate',
+	}
+
 end)
