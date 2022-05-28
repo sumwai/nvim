@@ -17,4 +17,7 @@ require('packer').startup(function ()
     'nvim-telescope/telescope.nvim',
     requires = 'nvim-lua/plenary.nvim',
   }
+  
+  -- toggle terminal
+  use 'akinsho/toggleterm.nvim'
 end)

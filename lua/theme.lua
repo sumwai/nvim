@@ -16,3 +16,9 @@ require('bufferline').setup{}
 ------------------------
 
 require('wlsample.bubble2')
+
+------------------------
+-- toggle term setup ---
+------------------------
+
+require('toggleterm').setup()
