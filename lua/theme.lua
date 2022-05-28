@@ -31,7 +31,13 @@ require('wlsample.bubble2')
 -- toggle term setup ---
 ------------------------
 
-require('toggleterm').setup()
+require('toggleterm').setup{
+  direction = 'float',
+  float_opts = {
+    border = 'single',
+    winblend = 3,
+  }
+}
 
 ------------------------
 --- nvim tree setup ----
