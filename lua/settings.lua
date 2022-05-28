@@ -17,7 +17,17 @@ local variables = {
   -- set git message like '3 secs ago'
  	gitblame_date_format = '%r',
   gitblame_ignored_filetypes = {'NvimTree'},
+  -- set glow border to rounded
   glow_border = 'rounded',
+  -- do not load python provider
+  loaded_python3_provider = 0,
+  -- do not load node provider
+  loaded_node_provider = 0,
+  -- do not load ruby provider
+  loaded_ruby_provider = 0,
+  -- do not load perl provider
+  loaded_perl_provider = 0,
+
 }
 
 -- vim options
