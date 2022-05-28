@@ -28,8 +28,11 @@ require('packer').startup(function ()
   use 'terrortylor/nvim-comment'
 
   -- todo comment high light
-  use{
+  use {
 		'folke/todo-comments.nvim',
 		requires = 'nvim-lua/plenary.nvim',
 	}
+
+  -- 
+  use 'ellisonleao/glow.nvim'
 end)
