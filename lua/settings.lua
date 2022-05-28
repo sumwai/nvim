@@ -16,7 +16,8 @@ local variables = {
 	mapleader = ' ',
   -- set git message like '3 secs ago'
  	gitblame_date_format = '%r',
-  gitblame_ignored_filetypes = {'NvimTree'}
+  gitblame_ignored_filetypes = {'NvimTree'},
+  glow_border = 'rounded',
 }
 
 -- vim options
