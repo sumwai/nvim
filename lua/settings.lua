@@ -32,6 +32,13 @@ local variables = {
   UltiSnipsExpandTrigger="<tab>" ,
   UltiSnipsJumpForwardTrigger="<tab>",
   UltiSnipsJumpBackwardTrigger="<s-tab>",
+
+  -- disable markdown fold
+  vim_markdown_folding_disabled=1,
+  -- use latex math
+  vim_markdown_math = 1,
+  vim_markdown_frontmatter = 1,
+  vim_markdown_toml_frontmatter = 1,
 }
 
 -- vim options

@@ -42,7 +42,13 @@ require('packer').startup(function ()
 		run = ':TSUpdate',
 	}
 
+  -- snippets auto complet
   use 'SirVer/ultisnips'
   use 'honza/vim-snippets'
+
+  -- format markdown table
+  use { 'godlygeek/tabular' }
+  -- markdown highlight
+  use { 'plasticboy/vim-markdown' }
 
 end)
