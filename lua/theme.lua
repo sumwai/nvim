@@ -10,3 +10,9 @@ require('github-theme').setup()
 vim.opt.termguicolors = true
 
 require('bufferline').setup{}
+
+------------------------
+---- windline setup ----
+------------------------
+
+require('wlsample.bubble2')
