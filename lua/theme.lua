@@ -22,3 +22,9 @@ require('wlsample.bubble2')
 ------------------------
 
 require('toggleterm').setup()
+
+------------------------
+--- nvim tree setup ----
+------------------------
+
+require('nvim-tree').setup()

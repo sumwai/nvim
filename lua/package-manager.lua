@@ -9,8 +9,8 @@ require('packer').startup(function ()
   -- status line
   use 'windwp/windline.nvim'
 
-  -- nerd tree
-  use 'preservim/nerdtree'
+  -- nvim tree
+  use 'kyazdani42/nvim-tree.lua'
 
   -- telescope
   use {
