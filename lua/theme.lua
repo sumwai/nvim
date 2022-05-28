@@ -10,15 +10,20 @@ require('github-theme').setup()
 vim.opt.termguicolors = true
 
 require('bufferline').setup{
-  options = {
-    offsets = {{ filetype = "NvimTree", text = "File Explorer", text_align = "center" }},
-    name_formatter = function(buf)  -- buf contains a "name", "path" and "bufnr"
-      -- remove extension from markdown files for example
-      if buf.name:match('%.md') then
-        return vim.fn.fnamemodify(buf.name, ':t:r')
-      end
-    end,
-  }
+	options = {
+		offsets = { {
+			filetype = 'NvimTree',
+			text = 'File Explorer',
+			text_align = 'center',
+		} },
+		-- buf contains a "name", "path" and "bufnr"
+		name_formatter = function(buf)
+			-- remove extension from markdown files for example
+			if buf.name:match('%.md') then
+				return vim.fn.fnamemodify(buf.name, ':t:r')
+			end
+		end,
+	},
 }
 
 ------------------------
@@ -32,11 +37,11 @@ require('wlsample.bubble2')
 ------------------------
 
 require('toggleterm').setup{
-  direction = 'float',
-  float_opts = {
-    border = 'single',
-    winblend = 3,
-  }
+	direction = 'float',
+	float_opts = {
+		border = 'single',
+		winblend = 3,
+	},
 }
 
 ------------------------
