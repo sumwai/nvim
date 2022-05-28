@@ -1,3 +1,6 @@
+-- settings
+require('settings')
+
 -- packer
 require('package-manager')
 
@@ -6,9 +9,6 @@ require('theme')
 
 -- keymaps
 require('keymaps')
-
--- settings
-require('settings')
 
 -- code
 require('code')

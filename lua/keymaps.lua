@@ -20,5 +20,11 @@ vim.cmd "nmap <c-z> <cmd>ToggleTerm<cr>"
 
 vim.cmd "autocmd TermEnter term://*toggleterm#* tnoremap <C-z> <Cmd>exe v:count1 . 'ToggleTerm'<CR>"
 
+------------------------
+---- telescope maps ----
+------------------------
+
+vim.cmd "nmap <leader>ff <cmd>Telescope find_files<cr>"
+vim.cmd "nmap <leader>fg <cmd>Telescope live_grep<cr>"
 
 
