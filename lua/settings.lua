@@ -14,6 +14,8 @@ local options = {
 
 local variables = {
 	mapleader = ' ',
+  -- set git message like '3 secs ago'
+ 	gitblame_date_format = '%r',
 }
 
 -- vim options

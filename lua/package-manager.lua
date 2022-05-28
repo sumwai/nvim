@@ -20,4 +20,8 @@ require('packer').startup(function ()
   
   -- toggle terminal
   use 'akinsho/toggleterm.nvim'
+
+  -- show git message 
+	use'f-person/git-blame.nvim'
+
 end)
